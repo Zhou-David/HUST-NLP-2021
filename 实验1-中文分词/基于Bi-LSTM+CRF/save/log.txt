@@ -1,0 +1,27 @@
+2021-0601 20:46:26 DEBUG    word_embeds.weight: torch.Size([5168, 100]), require_grad=True
+2021-0601 20:46:26 DEBUG    lstm.weight_ih_l0: torch.Size([400, 100]), require_grad=True
+2021-0601 20:46:26 DEBUG    lstm.weight_hh_l0: torch.Size([400, 100]), require_grad=True
+2021-0601 20:46:26 DEBUG    lstm.bias_ih_l0: torch.Size([400]), require_grad=True
+2021-0601 20:46:26 DEBUG    lstm.bias_hh_l0: torch.Size([400]), require_grad=True
+2021-0601 20:46:26 DEBUG    lstm.weight_ih_l0_reverse: torch.Size([400, 100]), require_grad=True
+2021-0601 20:46:26 DEBUG    lstm.weight_hh_l0_reverse: torch.Size([400, 100]), require_grad=True
+2021-0601 20:46:26 DEBUG    lstm.bias_ih_l0_reverse: torch.Size([400]), require_grad=True
+2021-0601 20:46:26 DEBUG    lstm.bias_hh_l0_reverse: torch.Size([400]), require_grad=True
+2021-0601 20:46:26 DEBUG    hidden2tag.weight: torch.Size([4, 200]), require_grad=True
+2021-0601 20:46:26 DEBUG    hidden2tag.bias: torch.Size([4]), require_grad=True
+2021-0601 20:46:26 DEBUG    crf.start_transitions: torch.Size([4]), require_grad=True
+2021-0601 20:46:26 DEBUG    crf.end_transitions: torch.Size([4]), require_grad=True
+2021-0601 20:46:26 DEBUG    crf.transitions: torch.Size([4, 4]), require_grad=True
+2021-0601 20:54:54 DEBUG    epoch 0-step 100 loss: 24.596866
+2021-0601 21:05:51 DEBUG    epoch 0-step 200 loss: 12.177293
+2021-0601 21:15:44 DEBUG    epoch 0-step 300 loss: 9.078835
+2021-0601 21:24:44 DEBUG    epoch 0-step 400 loss: 7.350460
+2021-0601 21:33:58 DEBUG    epoch 0-step 500 loss: 6.162376
+2021-0601 21:42:15 DEBUG    epoch 0-step 600 loss: 5.533099
+2021-0601 21:43:51 INFO     precision: 0.921905
+2021-0601 21:43:51 INFO     recall: 0.918765
+2021-0601 21:43:51 INFO     fscore: 0.920332
+2021-0601 21:43:51 INFO     model has been saved in  ./save/model_epoch0.pkl
+2021-0601 21:52:37 DEBUG    epoch 1-step 100 loss: 4.457508
+2021-0601 22:01:58 DEBUG    epoch 1-step 200 loss: 4.229095
+2021-0601 22:11:50 DEBUG    epoch 1-step 300 loss: 3.938676
